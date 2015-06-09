@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		1DE1AC391B2687D900AB6CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1AC381B2687D900AB6CC9 /* main.m */; };
 		1DE1AC3C1B2687D900AB6CC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1AC3B1B2687D900AB6CC9 /* AppDelegate.m */; };
-		1DE1AC3F1B2687D900AB6CC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1AC3E1B2687D900AB6CC9 /* ViewController.m */; };
 		1DE1AC421B2687D900AB6CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC401B2687D900AB6CC9 /* Main.storyboard */; };
 		1DE1AC441B2687D900AB6CC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC431B2687D900AB6CC9 /* Images.xcassets */; };
 		1DE1AC471B2687D900AB6CC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC451B2687D900AB6CC9 /* LaunchScreen.xib */; };
 		1DE1AC531B2687D900AB6CC9 /* RuidaoOnlineDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1AC521B2687D900AB6CC9 /* RuidaoOnlineDemoTests.m */; };
+		1DE1AC5F1B26BB6800AB6CC9 /* common in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC5C1B26BB6800AB6CC9 /* common */; };
+		1DE1AC601B26BB6800AB6CC9 /* opensource in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC5D1B26BB6800AB6CC9 /* opensource */; };
+		1DE1AC611B26BB6800AB6CC9 /* source in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC5E1B26BB6800AB6CC9 /* source */; };
+		482DF37BE1B7D7E5A2E54FE0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D29DC1417F17B4DF62EA24FE /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,18 @@
 		1DE1AC381B2687D900AB6CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DE1AC3A1B2687D900AB6CC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1DE1AC3B1B2687D900AB6CC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1DE1AC3D1B2687D900AB6CC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1DE1AC3E1B2687D900AB6CC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1DE1AC411B2687D900AB6CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DE1AC431B2687D900AB6CC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1DE1AC461B2687D900AB6CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1DE1AC4C1B2687D900AB6CC9 /* RuidaoOnlineDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuidaoOnlineDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE1AC511B2687D900AB6CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DE1AC521B2687D900AB6CC9 /* RuidaoOnlineDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuidaoOnlineDemoTests.m; sourceTree = "<group>"; };
+		1DE1AC5C1B26BB6800AB6CC9 /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = common; sourceTree = "<group>"; };
+		1DE1AC5D1B26BB6800AB6CC9 /* opensource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = opensource; sourceTree = "<group>"; };
+		1DE1AC5E1B26BB6800AB6CC9 /* source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = source; sourceTree = "<group>"; };
+		5031D42588ABCBB70D4CC33B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		62BBBEDBE1769106734605F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D29DC1417F17B4DF62EA24FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482DF37BE1B7D7E5A2E54FE0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +74,8 @@
 				1DE1AC351B2687D900AB6CC9 /* RuidaoOnlineDemo */,
 				1DE1AC4F1B2687D900AB6CC9 /* RuidaoOnlineDemoTests */,
 				1DE1AC341B2687D900AB6CC9 /* Products */,
+				4571B6E5FB590E72962BF8B4 /* Pods */,
+				1F97D82E4A409630AC835A1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +91,11 @@
 		1DE1AC351B2687D900AB6CC9 /* RuidaoOnlineDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1DE1AC5C1B26BB6800AB6CC9 /* common */,
+				1DE1AC5D1B26BB6800AB6CC9 /* opensource */,
+				1DE1AC5E1B26BB6800AB6CC9 /* source */,
 				1DE1AC3A1B2687D900AB6CC9 /* AppDelegate.h */,
 				1DE1AC3B1B2687D900AB6CC9 /* AppDelegate.m */,
-				1DE1AC3D1B2687D900AB6CC9 /* ViewController.h */,
-				1DE1AC3E1B2687D900AB6CC9 /* ViewController.m */,
 				1DE1AC401B2687D900AB6CC9 /* Main.storyboard */,
 				1DE1AC431B2687D900AB6CC9 /* Images.xcassets */,
 				1DE1AC451B2687D900AB6CC9 /* LaunchScreen.xib */,
@@ -119,6 +130,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1F97D82E4A409630AC835A1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D29DC1417F17B4DF62EA24FE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4571B6E5FB590E72962BF8B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62BBBEDBE1769106734605F4 /* Pods.debug.xcconfig */,
+				5031D42588ABCBB70D4CC33B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DE1AC561B2687D900AB6CC9 /* Build configuration list for PBXNativeTarget "RuidaoOnlineDemo" */;
 			buildPhases = (
+				8D7C9E9B8CB3D518418F4B11 /* Check Pods Manifest.lock */,
 				1DE1AC2F1B2687D900AB6CC9 /* Sources */,
 				1DE1AC301B2687D900AB6CC9 /* Frameworks */,
 				1DE1AC311B2687D900AB6CC9 /* Resources */,
+				7F49E6F944362ED1BF873586 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +229,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE1AC601B26BB6800AB6CC9 /* opensource in Resources */,
 				1DE1AC421B2687D900AB6CC9 /* Main.storyboard in Resources */,
 				1DE1AC471B2687D900AB6CC9 /* LaunchScreen.xib in Resources */,
 				1DE1AC441B2687D900AB6CC9 /* Images.xcassets in Resources */,
+				1DE1AC5F1B26BB6800AB6CC9 /* common in Resources */,
+				1DE1AC611B26BB6800AB6CC9 /* source in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,12 +247,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7F49E6F944362ED1BF873586 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D7C9E9B8CB3D518418F4B11 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1DE1AC2F1B2687D900AB6CC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DE1AC3F1B2687D900AB6CC9 /* ViewController.m in Sources */,
 				1DE1AC3C1B2687D900AB6CC9 /* AppDelegate.m in Sources */,
 				1DE1AC391B2687D900AB6CC9 /* main.m in Sources */,
 			);
@@ -347,6 +412,7 @@
 		};
 		1DE1AC571B2687D900AB6CC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BBBEDBE1769106734605F4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RuidaoOnlineDemo/Info.plist;
@@ -357,6 +423,7 @@
 		};
 		1DE1AC581B2687D900AB6CC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5031D42588ABCBB70D4CC33B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RuidaoOnlineDemo/Info.plist;
@@ -418,6 +485,7 @@
 				1DE1AC581B2687D900AB6CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DE1AC591B2687D900AB6CC9 /* Build configuration list for PBXNativeTarget "RuidaoOnlineDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +494,7 @@
 				1DE1AC5B1B2687D900AB6CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
