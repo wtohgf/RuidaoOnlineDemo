@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DE1AC391B2687D900AB6CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1AC381B2687D900AB6CC9 /* main.m */; };
+		1DE1AC3C1B2687D900AB6CC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1AC3B1B2687D900AB6CC9 /* AppDelegate.m */; };
+		1DE1AC3F1B2687D900AB6CC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1AC3E1B2687D900AB6CC9 /* ViewController.m */; };
+		1DE1AC421B2687D900AB6CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC401B2687D900AB6CC9 /* Main.storyboard */; };
+		1DE1AC441B2687D900AB6CC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC431B2687D900AB6CC9 /* Images.xcassets */; };
+		1DE1AC471B2687D900AB6CC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC451B2687D900AB6CC9 /* LaunchScreen.xib */; };
+		1DE1AC531B2687D900AB6CC9 /* RuidaoOnlineDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1AC521B2687D900AB6CC9 /* RuidaoOnlineDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DE1AC4D1B2687D900AB6CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DE1AC2B1B2687D900AB6CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE1AC321B2687D900AB6CC9;
+			remoteInfo = RuidaoOnlineDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DE1AC331B2687D900AB6CC9 /* RuidaoOnlineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuidaoOnlineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE1AC371B2687D900AB6CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE1AC381B2687D900AB6CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DE1AC3A1B2687D900AB6CC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DE1AC3B1B2687D900AB6CC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DE1AC3D1B2687D900AB6CC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DE1AC3E1B2687D900AB6CC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DE1AC411B2687D900AB6CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DE1AC431B2687D900AB6CC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DE1AC461B2687D900AB6CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1DE1AC4C1B2687D900AB6CC9 /* RuidaoOnlineDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuidaoOnlineDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE1AC511B2687D900AB6CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE1AC521B2687D900AB6CC9 /* RuidaoOnlineDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuidaoOnlineDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DE1AC301B2687D900AB6CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE1AC491B2687D900AB6CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DE1AC2A1B2687D900AB6CC9 = {
+			isa = PBXGroup;
+			children = (
+				1DE1AC351B2687D900AB6CC9 /* RuidaoOnlineDemo */,
+				1DE1AC4F1B2687D900AB6CC9 /* RuidaoOnlineDemoTests */,
+				1DE1AC341B2687D900AB6CC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DE1AC341B2687D900AB6CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DE1AC331B2687D900AB6CC9 /* RuidaoOnlineDemo.app */,
+				1DE1AC4C1B2687D900AB6CC9 /* RuidaoOnlineDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DE1AC351B2687D900AB6CC9 /* RuidaoOnlineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1DE1AC3A1B2687D900AB6CC9 /* AppDelegate.h */,
+				1DE1AC3B1B2687D900AB6CC9 /* AppDelegate.m */,
+				1DE1AC3D1B2687D900AB6CC9 /* ViewController.h */,
+				1DE1AC3E1B2687D900AB6CC9 /* ViewController.m */,
+				1DE1AC401B2687D900AB6CC9 /* Main.storyboard */,
+				1DE1AC431B2687D900AB6CC9 /* Images.xcassets */,
+				1DE1AC451B2687D900AB6CC9 /* LaunchScreen.xib */,
+				1DE1AC361B2687D900AB6CC9 /* Supporting Files */,
+			);
+			path = RuidaoOnlineDemo;
+			sourceTree = "<group>";
+		};
+		1DE1AC361B2687D900AB6CC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DE1AC371B2687D900AB6CC9 /* Info.plist */,
+				1DE1AC381B2687D900AB6CC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DE1AC4F1B2687D900AB6CC9 /* RuidaoOnlineDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DE1AC521B2687D900AB6CC9 /* RuidaoOnlineDemoTests.m */,
+				1DE1AC501B2687D900AB6CC9 /* Supporting Files */,
+			);
+			path = RuidaoOnlineDemoTests;
+			sourceTree = "<group>";
+		};
+		1DE1AC501B2687D900AB6CC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DE1AC511B2687D900AB6CC9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DE1AC321B2687D900AB6CC9 /* RuidaoOnlineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE1AC561B2687D900AB6CC9 /* Build configuration list for PBXNativeTarget "RuidaoOnlineDemo" */;
+			buildPhases = (
+				1DE1AC2F1B2687D900AB6CC9 /* Sources */,
+				1DE1AC301B2687D900AB6CC9 /* Frameworks */,
+				1DE1AC311B2687D900AB6CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuidaoOnlineDemo;
+			productName = RuidaoOnlineDemo;
+			productReference = 1DE1AC331B2687D900AB6CC9 /* RuidaoOnlineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DE1AC4B1B2687D900AB6CC9 /* RuidaoOnlineDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE1AC591B2687D900AB6CC9 /* Build configuration list for PBXNativeTarget "RuidaoOnlineDemoTests" */;
+			buildPhases = (
+				1DE1AC481B2687D900AB6CC9 /* Sources */,
+				1DE1AC491B2687D900AB6CC9 /* Frameworks */,
+				1DE1AC4A1B2687D900AB6CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE1AC4E1B2687D900AB6CC9 /* PBXTargetDependency */,
+			);
+			name = RuidaoOnlineDemoTests;
+			productName = RuidaoOnlineDemoTests;
+			productReference = 1DE1AC4C1B2687D900AB6CC9 /* RuidaoOnlineDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DE1AC2B1B2687D900AB6CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = hegf;
+				TargetAttributes = {
+					1DE1AC321B2687D900AB6CC9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1DE1AC4B1B2687D900AB6CC9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1DE1AC321B2687D900AB6CC9;
+					};
+				};
+			};
+			buildConfigurationList = 1DE1AC2E1B2687D900AB6CC9 /* Build configuration list for PBXProject "RuidaoOnlineDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DE1AC2A1B2687D900AB6CC9;
+			productRefGroup = 1DE1AC341B2687D900AB6CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DE1AC321B2687D900AB6CC9 /* RuidaoOnlineDemo */,
+				1DE1AC4B1B2687D900AB6CC9 /* RuidaoOnlineDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DE1AC311B2687D900AB6CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE1AC421B2687D900AB6CC9 /* Main.storyboard in Resources */,
+				1DE1AC471B2687D900AB6CC9 /* LaunchScreen.xib in Resources */,
+				1DE1AC441B2687D900AB6CC9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE1AC4A1B2687D900AB6CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DE1AC2F1B2687D900AB6CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE1AC3F1B2687D900AB6CC9 /* ViewController.m in Sources */,
+				1DE1AC3C1B2687D900AB6CC9 /* AppDelegate.m in Sources */,
+				1DE1AC391B2687D900AB6CC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE1AC481B2687D900AB6CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE1AC531B2687D900AB6CC9 /* RuidaoOnlineDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DE1AC4E1B2687D900AB6CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DE1AC321B2687D900AB6CC9 /* RuidaoOnlineDemo */;
+			targetProxy = 1DE1AC4D1B2687D900AB6CC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DE1AC401B2687D900AB6CC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DE1AC411B2687D900AB6CC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DE1AC451B2687D900AB6CC9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DE1AC461B2687D900AB6CC9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DE1AC541B2687D900AB6CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DE1AC551B2687D900AB6CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DE1AC571B2687D900AB6CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RuidaoOnlineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DE1AC581B2687D900AB6CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RuidaoOnlineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DE1AC5A1B2687D900AB6CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RuidaoOnlineDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuidaoOnlineDemo.app/RuidaoOnlineDemo";
+			};
+			name = Debug;
+		};
+		1DE1AC5B1B2687D900AB6CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RuidaoOnlineDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuidaoOnlineDemo.app/RuidaoOnlineDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DE1AC2E1B2687D900AB6CC9 /* Build configuration list for PBXProject "RuidaoOnlineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE1AC541B2687D900AB6CC9 /* Debug */,
+				1DE1AC551B2687D900AB6CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE1AC561B2687D900AB6CC9 /* Build configuration list for PBXNativeTarget "RuidaoOnlineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE1AC571B2687D900AB6CC9 /* Debug */,
+				1DE1AC581B2687D900AB6CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DE1AC591B2687D900AB6CC9 /* Build configuration list for PBXNativeTarget "RuidaoOnlineDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE1AC5A1B2687D900AB6CC9 /* Debug */,
+				1DE1AC5B1B2687D900AB6CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DE1AC2B1B2687D900AB6CC9 /* Project object */;
+}
