@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D968B671B26EEF70054F071 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B5A1B26EEF70054F071 /* AFAppDotNetAPIClient.m */; };
+		1D968B681B26EEF70054F071 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B5C1B26EEF70054F071 /* AFNetworkActivityLogger.m */; };
+		1D968B691B26EEF70054F071 /* JSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B5E1B26EEF70054F071 /* JSONHelper.m */; };
+		1D968B6A1B26EEF70054F071 /* NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B601B26EEF70054F071 /* NetworkHelper.m */; };
+		1D968B6E1B26EF2B0054F071 /* NEULogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B6D1B26EF2B0054F071 /* NEULogonViewController.m */; };
+		1D968B721B26F18E0054F071 /* FileManagerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B711B26F18E0054F071 /* FileManagerHelper.m */; };
+		1D968B781B278E400054F071 /* CoreDataStorageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B771B278E400054F071 /* CoreDataStorageController.m */; };
+		1D968B7B1B2798E50054F071 /* NEUStudyRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B791B2798E50054F071 /* NEUStudyRecord.xcdatamodeld */; };
+		1D968B801B279A2F0054F071 /* ClassStudyRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B7F1B279A2F0054F071 /* ClassStudyRecord.m */; };
+		1D968B871B27ECFD0054F071 /* NEUBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B861B27ECFD0054F071 /* NEUBaseViewController.m */; };
+		1D968B8B1B28192F0054F071 /* NEUWebRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B8A1B28192F0054F071 /* NEUWebRequestTool.m */; };
 		1DE1AC391B2687D900AB6CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1AC381B2687D900AB6CC9 /* main.m */; };
 		1DE1AC3C1B2687D900AB6CC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1AC3B1B2687D900AB6CC9 /* AppDelegate.m */; };
 		1DE1AC421B2687D900AB6CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC401B2687D900AB6CC9 /* Main.storyboard */; };
 		1DE1AC441B2687D900AB6CC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC431B2687D900AB6CC9 /* Images.xcassets */; };
-		1DE1AC471B2687D900AB6CC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC451B2687D900AB6CC9 /* LaunchScreen.xib */; };
 		1DE1AC531B2687D900AB6CC9 /* RuidaoOnlineDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1AC521B2687D900AB6CC9 /* RuidaoOnlineDemoTests.m */; };
-		1DE1AC5F1B26BB6800AB6CC9 /* common in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC5C1B26BB6800AB6CC9 /* common */; };
-		1DE1AC601B26BB6800AB6CC9 /* opensource in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC5D1B26BB6800AB6CC9 /* opensource */; };
-		1DE1AC611B26BB6800AB6CC9 /* source in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1AC5E1B26BB6800AB6CC9 /* source */; };
 		482DF37BE1B7D7E5A2E54FE0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D29DC1417F17B4DF62EA24FE /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +37,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D968B591B26EEF70054F071 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		1D968B5A1B26EEF70054F071 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		1D968B5B1B26EEF70054F071 /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLogger.h; sourceTree = "<group>"; };
+		1D968B5C1B26EEF70054F071 /* AFNetworkActivityLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityLogger.m; sourceTree = "<group>"; };
+		1D968B5D1B26EEF70054F071 /* JSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHelper.h; sourceTree = "<group>"; };
+		1D968B5E1B26EEF70054F071 /* JSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHelper.m; sourceTree = "<group>"; };
+		1D968B5F1B26EEF70054F071 /* NetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
+		1D968B601B26EEF70054F071 /* NetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHelper.m; sourceTree = "<group>"; };
+		1D968B6C1B26EF2B0054F071 /* NEULogonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEULogonViewController.h; sourceTree = "<group>"; };
+		1D968B6D1B26EF2B0054F071 /* NEULogonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEULogonViewController.m; sourceTree = "<group>"; };
+		1D968B701B26F18E0054F071 /* FileManagerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManagerHelper.h; sourceTree = "<group>"; };
+		1D968B711B26F18E0054F071 /* FileManagerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManagerHelper.m; sourceTree = "<group>"; };
+		1D968B741B278CEE0054F071 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1D968B761B278E400054F071 /* CoreDataStorageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStorageController.h; sourceTree = "<group>"; };
+		1D968B771B278E400054F071 /* CoreDataStorageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStorageController.m; sourceTree = "<group>"; };
+		1D968B7A1B2798E50054F071 /* NEUStudyRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NEUStudyRecord.xcdatamodel; sourceTree = "<group>"; };
+		1D968B7E1B279A2F0054F071 /* ClassStudyRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassStudyRecord.h; sourceTree = "<group>"; };
+		1D968B7F1B279A2F0054F071 /* ClassStudyRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassStudyRecord.m; sourceTree = "<group>"; };
+		1D968B841B27A38B0054F071 /* NEULog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEULog.h; sourceTree = "<group>"; };
+		1D968B851B27ECFD0054F071 /* NEUBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUBaseViewController.h; sourceTree = "<group>"; };
+		1D968B861B27ECFD0054F071 /* NEUBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUBaseViewController.m; sourceTree = "<group>"; };
+		1D968B891B28192F0054F071 /* NEUWebRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUWebRequestTool.h; sourceTree = "<group>"; };
+		1D968B8A1B28192F0054F071 /* NEUWebRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUWebRequestTool.m; sourceTree = "<group>"; };
+		1D968B8C1B2819F40054F071 /* NEUWebAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NEUWebAPI.h; sourceTree = "<group>"; };
 		1DE1AC331B2687D900AB6CC9 /* RuidaoOnlineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuidaoOnlineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE1AC371B2687D900AB6CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DE1AC381B2687D900AB6CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,13 +68,9 @@
 		1DE1AC3B1B2687D900AB6CC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1DE1AC411B2687D900AB6CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DE1AC431B2687D900AB6CC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1DE1AC461B2687D900AB6CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1DE1AC4C1B2687D900AB6CC9 /* RuidaoOnlineDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuidaoOnlineDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE1AC511B2687D900AB6CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DE1AC521B2687D900AB6CC9 /* RuidaoOnlineDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuidaoOnlineDemoTests.m; sourceTree = "<group>"; };
-		1DE1AC5C1B26BB6800AB6CC9 /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = common; sourceTree = "<group>"; };
-		1DE1AC5D1B26BB6800AB6CC9 /* opensource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = opensource; sourceTree = "<group>"; };
-		1DE1AC5E1B26BB6800AB6CC9 /* source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = source; sourceTree = "<group>"; };
 		5031D42588ABCBB70D4CC33B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		62BBBEDBE1769106734605F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D29DC1417F17B4DF62EA24FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +95,154 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D968B571B26EEF70054F071 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B831B27A38B0054F071 /* CommonHeader */,
+				1D968B751B278E400054F071 /* CoreDataStorage */,
+				1D968B731B278CEE0054F071 /* Constants */,
+				1D968B6F1B26F18E0054F071 /* FileHelper */,
+				1D968B581B26EEF70054F071 /* Networking */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		1D968B581B26EEF70054F071 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B591B26EEF70054F071 /* AFAppDotNetAPIClient.h */,
+				1D968B5A1B26EEF70054F071 /* AFAppDotNetAPIClient.m */,
+				1D968B5B1B26EEF70054F071 /* AFNetworkActivityLogger.h */,
+				1D968B5C1B26EEF70054F071 /* AFNetworkActivityLogger.m */,
+				1D968B5D1B26EEF70054F071 /* JSONHelper.h */,
+				1D968B5E1B26EEF70054F071 /* JSONHelper.m */,
+				1D968B5F1B26EEF70054F071 /* NetworkHelper.h */,
+				1D968B601B26EEF70054F071 /* NetworkHelper.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1D968B611B26EEF70054F071 /* opensource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = opensource;
+			sourceTree = "<group>";
+		};
+		1D968B621B26EEF70054F071 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B881B2819030054F071 /* Tools */,
+				1D968B7D1B279A070054F071 /* CommonModel */,
+				1D968B7C1B2799CB0054F071 /* BaseClass */,
+				1D968B631B26EEF70054F071 /* UI */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		1D968B631B26EEF70054F071 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B641B26EEF70054F071 /* Logon */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1D968B641B26EEF70054F071 /* Logon */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B6B1B26EF0A0054F071 /* Controller */,
+				1D968B651B26EEF70054F071 /* Model */,
+				1D968B661B26EEF70054F071 /* Views */,
+			);
+			path = Logon;
+			sourceTree = "<group>";
+		};
+		1D968B651B26EEF70054F071 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D968B661B26EEF70054F071 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D968B6B1B26EF0A0054F071 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B6C1B26EF2B0054F071 /* NEULogonViewController.h */,
+				1D968B6D1B26EF2B0054F071 /* NEULogonViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1D968B6F1B26F18E0054F071 /* FileHelper */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B701B26F18E0054F071 /* FileManagerHelper.h */,
+				1D968B711B26F18E0054F071 /* FileManagerHelper.m */,
+			);
+			path = FileHelper;
+			sourceTree = "<group>";
+		};
+		1D968B731B278CEE0054F071 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B741B278CEE0054F071 /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1D968B751B278E400054F071 /* CoreDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B761B278E400054F071 /* CoreDataStorageController.h */,
+				1D968B771B278E400054F071 /* CoreDataStorageController.m */,
+			);
+			path = CoreDataStorage;
+			sourceTree = "<group>";
+		};
+		1D968B7C1B2799CB0054F071 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B851B27ECFD0054F071 /* NEUBaseViewController.h */,
+				1D968B861B27ECFD0054F071 /* NEUBaseViewController.m */,
+			);
+			name = BaseClass;
+			sourceTree = "<group>";
+		};
+		1D968B7D1B279A070054F071 /* CommonModel */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B7E1B279A2F0054F071 /* ClassStudyRecord.h */,
+				1D968B7F1B279A2F0054F071 /* ClassStudyRecord.m */,
+			);
+			name = CommonModel;
+			sourceTree = "<group>";
+		};
+		1D968B831B27A38B0054F071 /* CommonHeader */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B841B27A38B0054F071 /* NEULog.h */,
+			);
+			path = CommonHeader;
+			sourceTree = "<group>";
+		};
+		1D968B881B2819030054F071 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1D968B891B28192F0054F071 /* NEUWebRequestTool.h */,
+				1D968B8A1B28192F0054F071 /* NEUWebRequestTool.m */,
+				1D968B8C1B2819F40054F071 /* NEUWebAPI.h */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		1DE1AC2A1B2687D900AB6CC9 = {
 			isa = PBXGroup;
 			children = (
@@ -91,15 +266,15 @@
 		1DE1AC351B2687D900AB6CC9 /* RuidaoOnlineDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1DE1AC5C1B26BB6800AB6CC9 /* common */,
-				1DE1AC5D1B26BB6800AB6CC9 /* opensource */,
-				1DE1AC5E1B26BB6800AB6CC9 /* source */,
+				1D968B571B26EEF70054F071 /* common */,
+				1D968B611B26EEF70054F071 /* opensource */,
+				1D968B621B26EEF70054F071 /* source */,
 				1DE1AC3A1B2687D900AB6CC9 /* AppDelegate.h */,
 				1DE1AC3B1B2687D900AB6CC9 /* AppDelegate.m */,
 				1DE1AC401B2687D900AB6CC9 /* Main.storyboard */,
 				1DE1AC431B2687D900AB6CC9 /* Images.xcassets */,
-				1DE1AC451B2687D900AB6CC9 /* LaunchScreen.xib */,
 				1DE1AC361B2687D900AB6CC9 /* Supporting Files */,
+				1D968B791B2798E50054F071 /* NEUStudyRecord.xcdatamodeld */,
 			);
 			path = RuidaoOnlineDemo;
 			sourceTree = "<group>";
@@ -229,12 +404,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DE1AC601B26BB6800AB6CC9 /* opensource in Resources */,
 				1DE1AC421B2687D900AB6CC9 /* Main.storyboard in Resources */,
-				1DE1AC471B2687D900AB6CC9 /* LaunchScreen.xib in Resources */,
 				1DE1AC441B2687D900AB6CC9 /* Images.xcassets in Resources */,
-				1DE1AC5F1B26BB6800AB6CC9 /* common in Resources */,
-				1DE1AC611B26BB6800AB6CC9 /* source in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +456,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D968B691B26EEF70054F071 /* JSONHelper.m in Sources */,
+				1D968B721B26F18E0054F071 /* FileManagerHelper.m in Sources */,
 				1DE1AC3C1B2687D900AB6CC9 /* AppDelegate.m in Sources */,
+				1D968B801B279A2F0054F071 /* ClassStudyRecord.m in Sources */,
+				1D968B871B27ECFD0054F071 /* NEUBaseViewController.m in Sources */,
+				1D968B8B1B28192F0054F071 /* NEUWebRequestTool.m in Sources */,
+				1D968B6A1B26EEF70054F071 /* NetworkHelper.m in Sources */,
+				1D968B671B26EEF70054F071 /* AFAppDotNetAPIClient.m in Sources */,
+				1D968B7B1B2798E50054F071 /* NEUStudyRecord.xcdatamodeld in Sources */,
+				1D968B681B26EEF70054F071 /* AFNetworkActivityLogger.m in Sources */,
+				1D968B6E1B26EF2B0054F071 /* NEULogonViewController.m in Sources */,
+				1D968B781B278E400054F071 /* CoreDataStorageController.m in Sources */,
 				1DE1AC391B2687D900AB6CC9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,14 +497,6 @@
 				1DE1AC411B2687D900AB6CC9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1DE1AC451B2687D900AB6CC9 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DE1AC461B2687D900AB6CC9 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -415,6 +589,7 @@
 			baseConfigurationReference = 62BBBEDBE1769106734605F4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = RuidaoOnlineDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,6 +601,7 @@
 			baseConfigurationReference = 5031D42588ABCBB70D4CC33B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = RuidaoOnlineDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,6 +673,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1D968B791B2798E50054F071 /* NEUStudyRecord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1D968B7A1B2798E50054F071 /* NEUStudyRecord.xcdatamodel */,
+			);
+			currentVersion = 1D968B7A1B2798E50054F071 /* NEUStudyRecord.xcdatamodel */;
+			path = NEUStudyRecord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1DE1AC2B1B2687D900AB6CC9 /* Project object */;
 }

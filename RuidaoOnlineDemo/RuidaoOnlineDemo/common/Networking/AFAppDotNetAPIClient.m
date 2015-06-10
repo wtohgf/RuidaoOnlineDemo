@@ -21,9 +21,9 @@
 // THE SOFTWARE.
 
 #import "AFAppDotNetAPIClient.h"
-#import "Constants.h"
 #import "NetworkHelper.h"
 #import "FileManagerHelper.h"
+#import "Constants.h"
 
 @implementation AFAppDotNetAPIClient
 
@@ -33,7 +33,7 @@
     dispatch_once(&onceToken, ^{
         _sharedClient = [[AFAppDotNetAPIClient alloc] initWithBaseURL:[NSURL URLWithString:@""]];
         _sharedClient.responseSerializer = [AFJSONResponseSerializer serializer];//使用这个将得到的是JSON
-        _sharedClient.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/x-javascript", nil];
+        _sharedClient.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", nil];
         _sharedClient.protalurl = @"";
     });
     
@@ -76,70 +76,6 @@
     {
         result(_protalurl,ApiStatusSuccess);
     }
-}
-
--(void)uploadImage:(NSDictionary *)parameters Images:(NSArray *)images Result:(void (^)(id result_data, ApiStatus result_status))result Progress:(void (^)(CGFloat progress))progress {
-    
-        if (![NetworkHelper isNetWorkReachable])
-        {
-            NSDictionary *userInfo = [NSDictionary dictionaryWithObject:NSLocalizedString(@"Please check your network connection is correct", @"请检查您的网络连接是否正确") forKey:NSLocalizedDescriptionKey];
-            NSError *error = [NSError errorWithDomain:JsonErrorDomain code:eJsonNil userInfo:userInfo];
-            result(error,ApiStatusNetworkNotReachable);
-        } else {
-            
-            
-            AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-            manager.responseSerializer = [AFJSONResponseSerializer serializer];//使用这个将得到的是JSON
-            manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html", nil];
-
-            [manager POST:APIName parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
-                [images enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-                    UIImage* image = (UIImage*)obj;
-                    NSData* data = UIImagePNGRepresentation(image);
-                    NSString* file = [NSString stringWithFormat:@"file%ld",idx+1];
-                    NSString* fileName = [NSString stringWithFormat:@"temp%ld.png",idx+1];
-                    [formData appendPartWithFileData:data name:file fileName:fileName mimeType:@"image/png"];
-                }];
-
-            } success:^(AFHTTPRequestOperation *operation, id responseObject) {
-                NSError *error = nil;
-                id json = nil;
-                if ([responseObject isKindOfClass:[NSArray class]] ||
-                    [responseObject isKindOfClass:[NSDictionary class]] ||
-                    [responseObject isKindOfClass:[NSString class]]) {
-                    json = responseObject;
-                }
-                else {
-                    json = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:&error];
-                }
-                
-                if (json==nil)
-                {
-                    NSDictionary *userInfo = [NSDictionary dictionaryWithObject:NSLocalizedString(@"Data analysis failed", @"数据解析失败") forKey:NSLocalizedDescriptionKey];
-                    error = [NSError errorWithDomain:JsonErrorDomain code:eJsonNil userInfo:userInfo];
-                    result(error,ApiStatusError);
-                }
-                else if ([json isEqual:[NSNull null]])
-                {
-                    NSDictionary *userInfo = [NSDictionary dictionaryWithObject:NSLocalizedString(@"Data analysis failed", @"数据解析失败") forKey:NSLocalizedDescriptionKey];
-                    error = [NSError errorWithDomain:JsonErrorDomain code:eJsonNil userInfo:userInfo];
-                    result(error,ApiStatusError);
-                }
-//                else if (![json isKindOfClass:[NSDictionary class]])
-//                {
-//                    NSDictionary *userInfo = [NSDictionary dictionaryWithObject:NSLocalizedString(@"Data analysis failed", @"数据解析失败") forKey:NSLocalizedDescriptionKey];
-//                    error = [NSError errorWithDomain:JsonErrorDomain code:eJsonNil userInfo:userInfo];
-//                    result(error,ApiStatusError);
-//                }
-                else
-                {
-                    result(responseObject,ApiStatusSuccess);
-                }
-                
-            } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                result(error,ApiStatusError);
-            }];
-        }
 }
 
 
@@ -315,30 +251,38 @@
                 {
                     NSMutableArray *modelArr = [NSMutableArray arrayWithCapacity:0];
                     @try {
-                        NSArray *Data = json;
-                        
-                        ApiEnum api = ApiEnumNone;
-                        //用function(NSString)参数if判断以确定ApiName枚举
-                        if ([function isEqualToString:@"ApiNamexxxx"]) {
-                            api = ApiEnumNone;
-                        }
-                        
-                        [Data enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-                            NSDictionary *modelDic = (NSDictionary *)obj;
+                        if ([json isKindOfClass:[NSMutableArray class]]) {
+                            NSArray *Data = json;
                             
-                            id modelObject = [JSONHelper jsonToModel:modelDic Api:ApiEnumNone Idx:idx ImageURL:APIImageName];
-                            if (modelArr!=nil) {
-                                [modelArr addObject:modelObject];
-                                *stop = YES;
-                            }
-                            else {
-                                if ([modelObject isKindOfClass:[NSArray class]]) {
-                                    [modelArr addObjectsFromArray:modelObject];
-                                } else {
+                            //                        ApiEnum api = ApiEnumNone;
+                            //用function(NSString)参数if判断以确定ApiName枚举
+                            //                        if ([function isEqualToString:@"ApiNamexxxx"]) {
+                            //                            api = ApiEnumNone;
+                            //                        }
+                            
+                            [Data enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+                                NSDictionary *modelDic = (NSDictionary *)obj;
+                                
+                                id modelObject = [JSONHelper jsonToModel:modelDic Api:ApiEnumNone Idx:idx ImageURL:APIImageName];
+                                if (modelArr!=nil) {
                                     [modelArr addObject:modelObject];
+                                    //*stop = YES;
                                 }
-                            }
-                        }];
+                                else {
+                                    if ([modelObject isKindOfClass:[NSArray class]]) {
+                                        [modelArr addObjectsFromArray:modelObject];
+                                    } else {
+                                        [modelArr addObject:modelObject];
+                                    }
+                                }
+                            }];
+
+                        }else if([json isKindOfClass:[NSDictionary class]]){
+                            NSDictionary *modelDic = (NSDictionary *)json;
+                            
+                            id modelObject = [JSONHelper jsonToModel:modelDic Api:ApiEnumNone Idx:0 ImageURL:APIImageName];
+                            [modelArr addObject:modelObject];
+                        }
                     }
                     @catch (NSException *exception) {
                         NSDictionary *userInfo = [NSDictionary dictionaryWithObject:exception.description forKey:NSLocalizedDescriptionKey];
@@ -410,9 +354,9 @@
                         ApiEnum api = ApiEnumNone;
                         
                         //用function(NSString)参数if判断以确定ApiName枚举
-                        if ([function rangeOfString:@"Get_Login"].length) {
-                            api = ApiEnumGet_Login;
-                        }
+//                        if ([function rangeOfString:@"Get_Login"].length) {
+//                            api = ApiEnumGet_Login;
+//                        }
                    
                         [Data enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
                             NSDictionary *modelDic = (NSDictionary *)obj;
@@ -420,7 +364,6 @@
                             id modelObject = [JSONHelper jsonToModel:modelDic Api:api Idx:idx ImageURL:APIImageName];
                             if (modelArr!=nil) {
                                 [modelArr addObject:modelObject];
-//                               *stop = YES;
                             }
                             else {
                                 if ([modelObject isKindOfClass:[NSArray class]]) {

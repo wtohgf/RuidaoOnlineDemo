@@ -7,7 +7,6 @@
 //
 
 #import "NetworkHelper.h"
-#import "UIAlertView+MoreAttribute.h"
 
 @implementation NetworkHelper
 

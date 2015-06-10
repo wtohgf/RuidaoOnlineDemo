@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ClassStudyRecord.h"
+#import "NetworkHelper.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [CoreDataStorageController sharedModel:self];
+    
+//    NSDictionary* dict1 = @{@"name": @"chatp1",
+//                            @"time": @"20:45",
+//                            @"url": @"http://ruidao/xxx.mp4"};
+//    ClassStudyRecord* record1 = [ClassStudyRecord classStudyRecordWithDict:dict1];
+//
+//    NSDictionary* dict2 = @{@"name": @"chatp2",
+//                            @"time": @"26:45",
+//                            @"url": @"http://ruidao/yyy.mp4"};
+//    ClassStudyRecord* record2 = [ClassStudyRecord classStudyRecordWithDict:dict2];
+//    
+//
+//    
+//    NSArray* records = [[CoreDataStorageController sharedModel] selectElementFromEntity:@"ClassStudyRecord" PredicateFromat:nil SortKey:@"name" Ascending:YES];
+#ifdef DEBUG
+    [[AFNetworkActivityLogger sharedLogger] setLevel:AFLoggerLevelDebug];
+    [[AFNetworkActivityLogger sharedLogger] startLogging];
+#endif
+    
+    [NetworkHelper startMonitorNetworkConnection];
     return YES;
 }
 
@@ -40,6 +63,13 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    //数据保存
+    [[CoreDataStorageController sharedModel]saveContext];
+    [NetworkHelper stopMonitorNetworkConnection];
+}
+
+- (void)persistentStoreDidChange{
+    
 }
 
 @end
