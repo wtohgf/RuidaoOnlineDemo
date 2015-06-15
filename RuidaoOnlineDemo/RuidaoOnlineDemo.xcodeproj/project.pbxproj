@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D520E7F1B2E807A00E5E5DE /* NEUBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D520E7E1B2E807A00E5E5DE /* NEUBaseTabBarController.m */; };
+		1D520E871B2E814E00E5E5DE /* NEUMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D520E861B2E814E00E5E5DE /* NEUMainPageViewController.m */; };
+		1D520E891B2E890B00E5E5DE /* NEUOnLinePractice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D520E881B2E890B00E5E5DE /* NEUOnLinePractice.storyboard */; };
+		1D520E8B1B2E892700E5E5DE /* NEUOnLineFindWork.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D520E8A1B2E892700E5E5DE /* NEUOnLineFindWork.storyboard */; };
+		1D520E8D1B2E894800E5E5DE /* NEUOnLineStudy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D520E8C1B2E894800E5E5DE /* NEUOnLineStudy.storyboard */; };
+		1D520E8F1B2E895900E5E5DE /* NEUOnLineTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D520E8E1B2E895900E5E5DE /* NEUOnLineTest.storyboard */; };
+		1D520E921B2E8A0200E5E5DE /* NEUBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D520E911B2E8A0200E5E5DE /* NEUBaseNavigationController.m */; };
+		1D520E961B2E8A4100E5E5DE /* NEUOnLineStudyBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D520E951B2E8A4100E5E5DE /* NEUOnLineStudyBaseNavController.m */; };
+		1D520E9A1B2E8AD500E5E5DE /* NEUOnLineStduyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D520E991B2E8AD500E5E5DE /* NEUOnLineStduyViewController.m */; };
 		1D968B671B26EEF70054F071 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B5A1B26EEF70054F071 /* AFAppDotNetAPIClient.m */; };
 		1D968B681B26EEF70054F071 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B5C1B26EEF70054F071 /* AFNetworkActivityLogger.m */; };
 		1D968B691B26EEF70054F071 /* JSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D968B5E1B26EEF70054F071 /* JSONHelper.m */; };
@@ -37,6 +46,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D520E7D1B2E807A00E5E5DE /* NEUBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUBaseTabBarController.h; sourceTree = "<group>"; };
+		1D520E7E1B2E807A00E5E5DE /* NEUBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUBaseTabBarController.m; sourceTree = "<group>"; };
+		1D520E851B2E814E00E5E5DE /* NEUMainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUMainPageViewController.h; sourceTree = "<group>"; };
+		1D520E861B2E814E00E5E5DE /* NEUMainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUMainPageViewController.m; sourceTree = "<group>"; };
+		1D520E881B2E890B00E5E5DE /* NEUOnLinePractice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NEUOnLinePractice.storyboard; sourceTree = "<group>"; };
+		1D520E8A1B2E892700E5E5DE /* NEUOnLineFindWork.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NEUOnLineFindWork.storyboard; sourceTree = "<group>"; };
+		1D520E8C1B2E894800E5E5DE /* NEUOnLineStudy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NEUOnLineStudy.storyboard; sourceTree = "<group>"; };
+		1D520E8E1B2E895900E5E5DE /* NEUOnLineTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NEUOnLineTest.storyboard; sourceTree = "<group>"; };
+		1D520E901B2E8A0200E5E5DE /* NEUBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUBaseNavigationController.h; sourceTree = "<group>"; };
+		1D520E911B2E8A0200E5E5DE /* NEUBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUBaseNavigationController.m; sourceTree = "<group>"; };
+		1D520E941B2E8A4100E5E5DE /* NEUOnLineStudyBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUOnLineStudyBaseNavController.h; sourceTree = "<group>"; };
+		1D520E951B2E8A4100E5E5DE /* NEUOnLineStudyBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUOnLineStudyBaseNavController.m; sourceTree = "<group>"; };
+		1D520E981B2E8AD500E5E5DE /* NEUOnLineStduyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUOnLineStduyViewController.h; sourceTree = "<group>"; };
+		1D520E991B2E8AD500E5E5DE /* NEUOnLineStduyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUOnLineStduyViewController.m; sourceTree = "<group>"; };
 		1D968B591B26EEF70054F071 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
 		1D968B5A1B26EEF70054F071 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
 		1D968B5B1B26EEF70054F071 /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLogger.h; sourceTree = "<group>"; };
@@ -95,6 +118,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D520E801B2E80A100E5E5DE /* OnLineTest */ = {
+			isa = PBXGroup;
+			children = (
+				1D520E8E1B2E895900E5E5DE /* NEUOnLineTest.storyboard */,
+			);
+			name = OnLineTest;
+			sourceTree = "<group>";
+		};
+		1D520E811B2E80B700E5E5DE /* OnLineStudy */ = {
+			isa = PBXGroup;
+			children = (
+				1D520E971B2E8A9A00E5E5DE /* OnLineStudy */,
+				1D520E931B2E8A0C00E5E5DE /* OnLineStduyBaseNav */,
+				1D520E8C1B2E894800E5E5DE /* NEUOnLineStudy.storyboard */,
+			);
+			name = OnLineStudy;
+			sourceTree = "<group>";
+		};
+		1D520E821B2E80C200E5E5DE /* OnLineFineWork */ = {
+			isa = PBXGroup;
+			children = (
+				1D520E8A1B2E892700E5E5DE /* NEUOnLineFindWork.storyboard */,
+			);
+			name = OnLineFineWork;
+			sourceTree = "<group>";
+		};
+		1D520E831B2E80F300E5E5DE /* OnLinePractice */ = {
+			isa = PBXGroup;
+			children = (
+				1D520E881B2E890B00E5E5DE /* NEUOnLinePractice.storyboard */,
+			);
+			name = OnLinePractice;
+			sourceTree = "<group>";
+		};
+		1D520E841B2E811600E5E5DE /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				1D520E851B2E814E00E5E5DE /* NEUMainPageViewController.h */,
+				1D520E861B2E814E00E5E5DE /* NEUMainPageViewController.m */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+		1D520E931B2E8A0C00E5E5DE /* OnLineStduyBaseNav */ = {
+			isa = PBXGroup;
+			children = (
+				1D520E941B2E8A4100E5E5DE /* NEUOnLineStudyBaseNavController.h */,
+				1D520E951B2E8A4100E5E5DE /* NEUOnLineStudyBaseNavController.m */,
+			);
+			name = OnLineStduyBaseNav;
+			sourceTree = "<group>";
+		};
+		1D520E971B2E8A9A00E5E5DE /* OnLineStudy */ = {
+			isa = PBXGroup;
+			children = (
+				1D520E981B2E8AD500E5E5DE /* NEUOnLineStduyViewController.h */,
+				1D520E991B2E8AD500E5E5DE /* NEUOnLineStduyViewController.m */,
+			);
+			name = OnLineStudy;
+			sourceTree = "<group>";
+		};
 		1D968B571B26EEF70054F071 /* common */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +227,11 @@
 		1D968B631B26EEF70054F071 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1D520E841B2E811600E5E5DE /* MainPage */,
+				1D520E831B2E80F300E5E5DE /* OnLinePractice */,
+				1D520E821B2E80C200E5E5DE /* OnLineFineWork */,
+				1D520E811B2E80B700E5E5DE /* OnLineStudy */,
+				1D520E801B2E80A100E5E5DE /* OnLineTest */,
 				1D968B641B26EEF70054F071 /* Logon */,
 			);
 			path = UI;
@@ -212,6 +301,10 @@
 			children = (
 				1D968B851B27ECFD0054F071 /* NEUBaseViewController.h */,
 				1D968B861B27ECFD0054F071 /* NEUBaseViewController.m */,
+				1D520E7D1B2E807A00E5E5DE /* NEUBaseTabBarController.h */,
+				1D520E7E1B2E807A00E5E5DE /* NEUBaseTabBarController.m */,
+				1D520E901B2E8A0200E5E5DE /* NEUBaseNavigationController.h */,
+				1D520E911B2E8A0200E5E5DE /* NEUBaseNavigationController.m */,
 			);
 			name = BaseClass;
 			sourceTree = "<group>";
@@ -404,8 +497,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D520E8B1B2E892700E5E5DE /* NEUOnLineFindWork.storyboard in Resources */,
 				1DE1AC421B2687D900AB6CC9 /* Main.storyboard in Resources */,
+				1D520E891B2E890B00E5E5DE /* NEUOnLinePractice.storyboard in Resources */,
 				1DE1AC441B2687D900AB6CC9 /* Images.xcassets in Resources */,
+				1D520E8F1B2E895900E5E5DE /* NEUOnLineTest.storyboard in Resources */,
+				1D520E8D1B2E894800E5E5DE /* NEUOnLineStudy.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,18 +554,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D968B691B26EEF70054F071 /* JSONHelper.m in Sources */,
+				1D520E7F1B2E807A00E5E5DE /* NEUBaseTabBarController.m in Sources */,
 				1D968B721B26F18E0054F071 /* FileManagerHelper.m in Sources */,
+				1D520E871B2E814E00E5E5DE /* NEUMainPageViewController.m in Sources */,
 				1DE1AC3C1B2687D900AB6CC9 /* AppDelegate.m in Sources */,
 				1D968B801B279A2F0054F071 /* ClassStudyRecord.m in Sources */,
 				1D968B871B27ECFD0054F071 /* NEUBaseViewController.m in Sources */,
 				1D968B8B1B28192F0054F071 /* NEUWebRequestTool.m in Sources */,
 				1D968B6A1B26EEF70054F071 /* NetworkHelper.m in Sources */,
 				1D968B671B26EEF70054F071 /* AFAppDotNetAPIClient.m in Sources */,
+				1D520E9A1B2E8AD500E5E5DE /* NEUOnLineStduyViewController.m in Sources */,
 				1D968B7B1B2798E50054F071 /* NEUStudyRecord.xcdatamodeld in Sources */,
 				1D968B681B26EEF70054F071 /* AFNetworkActivityLogger.m in Sources */,
 				1D968B6E1B26EF2B0054F071 /* NEULogonViewController.m in Sources */,
 				1D968B781B278E400054F071 /* CoreDataStorageController.m in Sources */,
 				1DE1AC391B2687D900AB6CC9 /* main.m in Sources */,
+				1D520E961B2E8A4100E5E5DE /* NEUOnLineStudyBaseNavController.m in Sources */,
+				1D520E921B2E8A0200E5E5DE /* NEUBaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

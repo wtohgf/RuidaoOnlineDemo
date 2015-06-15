@@ -8,6 +8,7 @@
 
 #import "NEULogonViewController.h"
 #import <UIImageView+AFNetworking.h>
+#import "NEUMainPageViewController.h"
 
 @interface NEULogonViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *imageCode;
@@ -52,12 +53,15 @@
     NSString* username = @"15074714@qq.com";
     NSString* password = @"123456";
 
+    [UIApplication sharedApplication].keyWindow.rootViewController = [[NEUMainPageViewController alloc]init];
+    
     if (_imageCode.text.length == 0) {
         NEULog(@"请输入验证码");
         return;
     }
     
     [[NEUWebRequestTool sharedWebRequestTool] Neu_logonWithName:username Password:password ImageCode:_imageCode.text];
+    
     
 }
 @end
